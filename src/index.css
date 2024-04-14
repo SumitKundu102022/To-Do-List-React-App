@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+  
+    background: #FD558B;
+
+}
+
+
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100px; */
+    
+    background: linear-gradient(0deg, #FD4141, #FD558B);;
+}
+
+.header2{
+
+    position: sticky;
+     background: #FD558B;
+    top: 80px;
+    z-index: 1000;
+}
+
+
+
+
+
+.to-do-list{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    /* height: 100vh; */
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: #fff;
+    /* margin-bottom: 20px; */
+}
+
+button{
+    
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.5s ease;
+    gap: 10px;
+}
+
+.add-button{
+    background-color: hsl(125, 47%, 54%);
+    color: #fff;
+    font-size: 1.1rem;
+    margin-left: 12px;
+}
+
+
+
+.add-button:hover{
+    background-color: hsl(125, 47%, 44%);
+}
+
+.delete-button{
+    background-color: hsl(10, 90%, 54%);
+    color: #fff;
+}
+
+.delete-button{
+    background-color: #FD558B;
+    color: #fff;
+}
+
+.delete-button:hover{
+    background-color: hsl(10, 90%, 44%);
+}
+
+.delete-button:hover{
+    background-color: #FD4141;
+}
+
+.move-button{
+    background-color: hsl(200, 47%, 54%);
+    color: #fff;
+}
+
+.move-button:hover{
+    background-color: hsl(200, 47%, 44%);
+}
+
+input[type="text"]{
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+ol{
+    padding: 0;
+    margin: 10px;
+    list-style: none;
+}
+
+li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0, 0%,97%);
+    margin-bottom: 10px;
+    border: 2px solid hsl(0, 0%, 0%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%; */
+    flex: 1;
+}
+
+.delete-button,.move-button{
+    padding: 8px 12px;
+   font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    gap: 20px;
+    color: white;
+}
+
+.social-icons{
+    display: flex;
+    color: white;
+    gap: 20px;
+    font-size: 20px;
+    
+}
+
+:root {
+  --icon-color: white;
+}
+
+.icon {
+  fill: var(--icon-color);
+  
+}
+
+.icon:hover {
+  fill: hsl(10, 90%, 54%);
+}
